@@ -1,0 +1,123 @@
+
+#cabecalho__container {
+    width: 90vw;
+    height: 5rem;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo__menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    color: rgb(6, 34, 241);
+    text-shadow: 1px 1px 20px rgb(251, 3, 3);    
+}
+
+#menu__container {    
+    width: 30rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+* {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:18px;
+}
+ 
+#menu__container ul {    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.item__lista {
+    width: 6rem;
+    height: 3rem;    
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+.item__lista a {
+    color: #FFF;
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: .50rem;  
+}
+
+.item__lista a:hover {
+    background: #CCC;
+    color: #000;     
+}
+
+body {
+    background-size: cover;
+    color: rgb(236, 241, 241);
+}
+
+#container__body {    
+    width: 40%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 80px;    
+}
+
+#paragrafo__principal {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(245, 235, 238);
+}
+
+#minha__foto {
+    margin-right: 60px;
+    margin-top: 90px;
+}
+
+.exemplo {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+#container__resumo {    
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+}
+
+#guitarra__div {
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#meus__pais {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
